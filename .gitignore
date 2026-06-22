@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# repo specific stuffs
+faq.db*
+*.db
+*.db-shm
+*.db-wal
+
 # C extensions
 *.so
 
