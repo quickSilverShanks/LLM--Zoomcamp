@@ -15,9 +15,10 @@ Keep llm api keys in .env file as shown in .env.example and make sure .env is ad
 ```bash
 conda create -n llm_zoomcamp python=3.14
 conda activate llm_zoomcamp
-pip install requests minsearch sqlitesearch openai jupyter python-dotenv
+pip install requests minsearch sqlitesearch openai jupyter python-dotenv toyaikit gitsource
 ```
 
+Assignment has its own readme file with instructions.
 
 <br><br><br><hr>
 
