@@ -33,6 +33,8 @@ Keep llm api keys in .env file as shown in .env.example and make sure .env is ad
 ```bash
 conda activate llm_zoomcamp
 pip install sentence-transformers psycopg[binary]
+# additional libraries for assignment
+pip install onnxruntime tokenizers numpy tqdm  huggingface-hub
 ```
 
 PGVector requires Docker, Postgres database with concurrent access, can handle millions of records and is best for production systems as compared to other alternatives used in this module. Pull the image specified below and start postgres with pgvector:
